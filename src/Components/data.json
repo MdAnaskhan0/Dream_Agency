@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Web Design Project",
+        "category": "web-design",
+        "image": "public/portfolio1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Marketing Campaign",
+        "category": "marketing",
+        "image": "public/portfolio2.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Branding Strategy",
+        "category": "branding",
+        "image": "public/portfolio3.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Another Web Design Project",
+        "category": "web-design",
+        "image": "public/portfolio4.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Social Media Marketing",
+        "category": "marketing",
+        "image": "public/portfolio5.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Logo Design",
+        "category": "branding",
+        "image": "public/portfolio6.jpg"
+    }
+]

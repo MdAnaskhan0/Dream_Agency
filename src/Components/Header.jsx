@@ -48,7 +48,7 @@ const Header = () => {
         {/* Mobile menu section */}
         {isOpen && (
           <div className='md:hidden'>
-            <ul className='text-black flex flex-col space-y-4 py-4'>
+            <ul className='text-black flex flex-col space-y-4 py-4 w-full'>
               <li><a href="">Home</a></li>
               <li><a href="">About</a></li>
               <li><a href="">Portfolio</a></li>
