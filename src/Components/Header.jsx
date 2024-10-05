@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <>
-      <div className='bg-white px-8 py-4 shadow-md sticky top-0'>
+      <div className='bg-white px-8 py-4 shadow-md sticky top-0 fixed top-0 left-0 w-full z-50 bg-white shadow-md'>
         {/* Main container for header */}
         <div className='container mx-auto flex justify-between items-center max-w-[1100px]'>
           {/* Logo section */}

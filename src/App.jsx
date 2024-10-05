@@ -4,6 +4,9 @@ import Hero from './Components/Hero'
 import About from './Components/About'
 import Portfolio from './Components/Portfolio'
 import Services from './Components/Services'
+import News from './Components/news'
+import Contact from './Components/Contact'
+import Footer from './Components/Footer'
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
       <About />
       <Portfolio />
       <Services />
+      <News />
+      <Contact />
+      <Footer />
     </>
   )
 }

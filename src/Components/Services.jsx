@@ -11,8 +11,7 @@ import { FaWordpress } from "react-icons/fa";
 const Services = () => {
     return (
         <>
-            <div id='service' className='sm:pt-[100px] pt-[100px]'>
-                {/* Process Our Work */}
+            <div id='service' className='sm:pt-[100px]'>
                 <div className='sm:py-[100px] py-[100px]'>
                     <div className='container mx-auto flex flex-col md:flex-row justify-center items-center max-w-[1100px]'>
                         <div className='text-center'>
@@ -20,8 +19,6 @@ const Services = () => {
                             <h3 className='text-4xl font-bold my-4'>Process Of Our Work</h3> {/* Added text styling for better visibility */}
                         </div>
                     </div>
-
-                    {/* 4 process of work */}
 
                     <div className='sm:pt-[100px] pt-[100px]'>
                         <div className='container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-[1100px]'>

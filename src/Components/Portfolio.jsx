@@ -24,7 +24,7 @@ const Portfolio = () => {
         : portfolioItems.filter(item => item.category === filter);
 
     return (
-        <div className="container mx-auto py-10">
+        <div id='portfolio' className="container mx-auto pt-10">
             <p className='text-xl tracking-widest my-4 text-center'>WORK</p>
             <h1 className="text-3xl font-bold text-center">Our Work Portfolio</h1>
 
