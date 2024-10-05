@@ -1,11 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 
 const Contact = () => {
-    const { register, handleSubmit, formState: { errors } } = useForm();
+    // State to manage the success message
+    const [successMessage, setSuccessMessage] = useState('');
+    const { register, handleSubmit, formState: { errors }, reset } = useForm();
 
     const formSubmit = (data) => {
         console.log("Form Submitted:", data);
+
+        // Show success message
+        setSuccessMessage('Your message has been sent successfully!');
+
+        // Reset form values to default
+        reset();
+
+        // Optional: Clear the success message after a few seconds
+        setTimeout(() => setSuccessMessage(''), 5000); // Clears the message after 5 seconds
     };
 
     return (
@@ -121,6 +132,9 @@ const Contact = () => {
                                 </button>
                             </div>
                         </form>
+
+                        {/* Success Message */}
+                        {successMessage && <p className="text-green-500 text-center mt-4">{successMessage}</p>}
                     </div>
                 </div>
             </div>
