@@ -30,4 +30,4 @@ This project is a dynamic, responsive, and multi-section portfolio website built
 - Responsive Design
 
 
-![Final Look](public\Final_Look.png)
+![Final Look](public/Final_Look.png)
